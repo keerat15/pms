@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleassign.css">
+    <title>Assign Employee</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="logo">
+                <img src="logo1.png" alt="Tata Steel Logo" >
+            </div>
+            
+        </div>
+       
+        <div class="blurry-background"></div>
+        
+        <div class="middle-content">
+            
+            <div class="center-box">
+                <h2>Assign Employees</h2>
+                <label for="project-select">Select Project</label>
+                <div class="projectselect">
+                <select id="project-select">
+                    <option value="Project X">Project X</option>
+                    <option value="Project Y">Project Y</option>
+                    <option value="Project Z">Project Z</option>
+                    <option value="Project ABC">Project ABC</option>
+                </select>
+            </div>
+
+                <label for="employee-select">Select Employees</label>
+                <div class="employeeselect">
+                <select id="employee-select" multiple>
+                    <option value="Employee A">Manish</option>
+                    <option value="Employee B">Piyali</option>
+                    <option value="Employee C">Shivansh</option>
+                    <option value="Employee D">Neeta</option>
+                   
+                </select>
+            </div>
+
+                <button onclick="assignEmployees()">Assign Employee</button>
+                <div id="assigned-employees"></div>
+                <div id="project-assignments" class="assignments"></div>
+                <div id="employee-assignments" class="assignments"></div>
+                <div id="notification"></div>
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="assign.js"></script>
+</body>
+</html>
+

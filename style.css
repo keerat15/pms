@@ -1,0 +1,146 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0f001; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  th {
+    background-color: #333; 
+    color: #fff; 
+    transition: background-color 0.3s ease;
+    height: 60px;
+  }
+ 
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  th:hover {
+    background-color: #555; 
+  }
+  
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .progress-bar {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  
+  .progress-circle svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .progress-circle circle {
+    fill: transparent;
+    stroke: #00ff00;
+    stroke-width: 5;
+    stroke-dasharray: 0, 125;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dasharray 0.6s ease;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .progress-bar:hover .progress-circle circle {
+    stroke-dasharray: calc(var(--progress) * 1.25), 125;
+  }
+  
+  .progress-bar:hover .progress-text {
+    color: #00ff00;
+  }
+
+.progress-circle text {
+  
+  
+  text-anchor: middle;
+  transform: translate(50%, 50%);
+}
+
+
+.progress-bar:hover .progress-circle text {
+  font-size: 16px;
+  fill: #00ff00;
+  transition: font-size 0.3s ease, fill 0.3s ease;
+}
+
+
+.header-cell {
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-cell:hover {
+    background-color: #555;
+  }
+  
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-photo:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+  tbody tr:hover td:nth-child(6) {
+    background-color: rgba(0, 255, 0, 0.1);
+  }
+  
+
+  tbody tr:hover td:nth-child(1) {
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+  }
+  
+ 
+  tr {
+    transition: transform 0.3s ease;
+  }
+  
+  
+  tr:hover {
+    transform: scale(1.03);
+  }

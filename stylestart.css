@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.videowrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#video-background {
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-container {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+
+}
+.maintext {
+  font-size: 75px;
+  text-shadow:10px 6px rgba(8, 106, 119, 0.825);
+  border: 10px solid rgba(0, 0, 0, 0.696); 
+  border-style:outset;
+  padding: 10px;
+  text-decoration: solid;
+  background-color: rgba(0, 0, 0, 0.549);
+}
+.subtext{
+  margin-top:20px;
+  font-size:20px;
+}
+.subtext2{
+  font-size: 50px;
+  text-shadow:10px 6px rgba(8, 106, 119, 0.825);
+  /* border: 10px solid rgba(0, 0, 0, 0.412);  */
+  margin-top:10px;
+  margin-bottom: 40px;
+  padding: 10px;
+  text-decoration: solid;
+}
+.subtext3 a{
+  color:white;
+  font-size: 40px;
+  text-shadow:5px 5px rgba(8, 106, 119, 0.825);
+  border: 10px solid rgba(0, 0, 0, 0.696); 
+  border-style:inset;
+  margin-top:50px;
+  padding: 10px;
+  text-decoration: solid;
+  background-color: rgba(0, 0, 0, 0.549);
+
+}

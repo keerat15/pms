@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleemployeeview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <title>Employee View</title>
+</head>
+<body>
+  <section id="home" class="section">
+    <div class="home-container">
+        <header>
+    <div class="header">
+        <div class="logo">
+        <img src="logo1.png" alt="Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#project-assigned"> Project Assigned </a></li>
+                <li><a href="#previous-projects">Previous Projects</a></li>
+                <li><a href="#contact-manager">Contact Manager</a></li>
+            </ul>
+        </nav>
+        <div class="logout">
+            <button onclick="logout()">Logout</button>
+        </div>
+        <div class="profile_icon">
+            <img src="img1.jpeg" alt="img1" width="50">
+        </div>
+       
+    </div>
+    </header>
+    <section class="banner">
+        <h1>Leading Through Legacy</h1>
+        <h3>Tata Steel is reinventing itself to adapt the challenges of the future.</h3>
+    <a href="https://www.tatasteel.com/" target="_blank">Explore</a>
+    </section>
+    
+    
+    </div>
+  </section>
+
+<div class="parallax-container">
+      
+        <div class="emp_det">
+        <main class="table">
+        <section id="profile" class="section">
+            <section class="table_header">
+                <h1>Profile</h1>
+                <div class="year-selector">
+                  <label for="year-select">Select Financial Year:</label>
+                  <select id="year-select">
+                    <option value="2023">FY 2020-21</option>
+
+                      <option value="2021">FY 2021-22</option>
+                      <option value="2022">FY 2022-23</option>
+                      <option value="2023">FY 2023-24</option>
+                  </select>
+              </div>
+            </section>
+            <section class="table_body">
+                <div class="container">
+                    <table>
+                      <thead>
+                        <tr>
+                            <th class="header-cell">Name</th>
+                            <th class="header-cell">ID</th>
+                            <th class="header-cell">Photo</th>
+                            <th class="header-cell">Joining Date</th>
+                            <th class="header-cell">Phone No</th>
+                            <th class="header-cell">Email</th>
+                            <th class="header-cell">Project History</th>
+                            <th class="header-cell">Overall Efficiency</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Mahesh</td>
+                          <td>TS001</td>
+                          <td><img src="img1.jpeg" alt="Profile" class="profile-photo"></td>
+                          <td>2021-05-15</td>
+                          <td>1234567890</td>
+                          <td>mahesh@example.com</td>
+                          <td>Project X, Project Y</td>
+                          <td>
+                           70%
+                          </td>
+                        </tr>
+                        <!-- <tr> -->
+                            <!-- <td>Piyali</td>
+                            <td>TS002</td>
+                            <td><img src="img2.png" alt="Profile" class="profile-photo"></td>
+                            <td>2021-04-17</td>
+                            <td>9876543210</td>
+                            <td>piyali@example.com</td>
+                            <td>Project M</td>
+                            <td>
+                              68%
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Shivansh</td>
+                            <td>TS003</td>
+                            <td><img src="img1.jpeg" alt="Profile" class="profile-photo"></td>
+                            <td>2020-02-15</td>
+                            <td>6549873210</td>
+                            <td>shivansh@example.com</td>
+                            <td>Project ABC</td>
+                            <td>
+                            75%
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Neeta</td>
+                            <td>TS004</td>
+                            <td><img src="img2.png" alt="Profile" class="profile-photo"></td>
+                            <td>2021-09-04</td>
+                            <td>96385272741</td>
+                            <td>neeta@example.com</td>
+                            <td>Project X, Project Y, Project Z</td>
+                            <td>
+                              98%
+                            </td> -->
+                          <!-- </tr> -->
+                        
+                      </tbody>
+                    </table>
+                  </div>
+            </section>
+
+            
+        </section>
+        </main>
+    </div>
+   
+    <div class="emp_det2">
+        <section id="project-assigned" class="section2">
+          <section class="table_header2">
+            <h1>Projects Assigned</h1>
+                <div class="year-selector2">
+                  <label for="year-select">Select Financial Year:</label>
+                  <select id="year-select">
+                    <option value="2023">FY 2020-21</option>
+                    <option value="2021">FY 2021-22</option>
+                    <option value="2022">FY 2022-23</option>
+                    <option value="2023">FY 2023-24</option>
+                  </select>
+              </div>
+          </section>
+          <section class="table_body2">
+            <div class="container">
+                <table>
+                  <thead>
+                    <tr>
+                        <th class="header-cell">Name</th>
+                        <th class="header-cell">ID</th>
+                        <th class="header-cell">Theme</th>
+                        <th class="header-cell">Start Date</th>
+                        <th class="header-cell">Deadline</th>
+                        
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Project X</td>
+                      <td>PTS001</td>
+                      <td>Resource Conservation</td>
+                      <td>2021-04-02
+                      </td>
+                      <td>2021-05-15</td>
+                    </tr>
+                    <!-- <tr>
+                      <td>Project Y</td>
+                      <td>PTS002</td>
+                      <td>IOT</td>
+                      <td>2021-04-15
+                    </td>
+                      <td>2020-05-17</td>
+                      </tr>
+                      <tr>
+                        <td>Project Z</td>
+                        <td>PTS003</td>
+                        <td>AI</td>
+                        <td>2021-05-02
+                        </td>
+                        <td>2023-04-02</td>
+                      </tr>
+                      <tr>
+                        <td>Project ABC</td>
+                        <td>PTS004</td>
+                        <td>Machine Learning</td>
+                        <td>2021-12-03
+                        </td>
+                        <td>2021-11-15</td>
+                      </tr> -->
+                    
+                  </tbody>
+                </table>
+              </div>
+        </section>
+    </div>
+
+    <div class="emp_det3">
+      <section id="previous-projects" class="section3">
+        <section class="table_header3">
+          <h1>Previous Projects</h1>
+              <div class="year-selector3">
+                <label for="year-select">Select Financial Year:</label>
+                <select id="year-select">
+                  <option value="2023">FY 2020-21</option>
+                  <option value="2021">FY 2021-22</option>
+                  <option value="2022">FY 2022-23</option>
+                  <option value="2023">FY 2023-24</option>
+                </select>
+            </div>
+        </section>
+        <section class="table_body3">
+          <div class="container">
+              <table>
+                <thead>
+                  <tr>
+                      <th class="header-cell">Project Name</th>
+                      <th class="header-cell">Project ID</th>
+                      <th class="header-cell">Theme</th>
+                      <th class="header-cell">Start Date</th>
+                      <th class="header-cell">Deadline Date</th>
+                      <th class="header-cell">Overall Efficiency</th>
+                      <th class="header-cell">Remarks</th>
+
+
+                      
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Project X</td>
+                    <td>PTS001</td>
+                    <td>Resource Conservation</td>
+                    
+                    <td>2021-04-02
+                    </td>
+                    <td>2021-05-15</td>
+                    <td>70%</td>
+                    <td>Good</td>
+                  </tr>
+                  <!-- <tr>
+                    <td>Project Y</td>
+                    <td>PTS002</td>
+                    <td>IOT</td>
+                    <td>2
+                    </td>
+                    <td><ul>
+                      <li>Piyali</li>
+                      <li>Neeta</li>
+                    </ul></td>
+                    <td>2023-09-29</td>
+                    <td>2023-10-29</td>
+                    <td>45%</td>
+                    </tr>
+                    <tr>
+                      <td>Project Z</td>
+                      <td>PTS003</td>
+                      <td>AI</td>
+                      <td>1
+                      </td>
+                      <td>Shivansh</td>
+                      <td>2023-09-29</td>
+                      <td>2023-10-29</td>
+                      <td>52%</td>
+                    </tr>
+                   -->
+                  
+                </tbody>
+              </table>
+            </div>
+      </section>
+  </div>
+  <div class="emp_det4">
+    <section id="contact-manager" class="section4">
+      <section class="table_header4">
+        <h1>Contact Manager</h1>
+           <div class="center_box">
+            <!-- <input type="text" placeholder="Enter your Name" autocomplete="off" required>
+            <input type="email" placeholder="Enter your Email" autocomplete="off" required> -->
+            <input type="text" placeholder="Subject" autocomplete="off" required>
+            <textarea cols="60" rows="5" autocomplete="off" required placeholder="Enter your Query"></textarea>
+            <button>Send</button>
+           </div>
+      </section>
+      <section class="table_body4">
+       
+</div>
+    <footer>
+      <div class="footer">
+      <div class="row">
+      <a href="https://www.facebook.com/TataSteelLtd/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/tatasteelltd/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCiBXZ5-vg78L_-_mcBhq6tw" target="_blank"><i class="fa fa-youtube"></i></a>
+      <a href="https://twitter.com/TataSteelLtd" target="_blank"><i class="fa fa-twitter"></i></a>
+      </div>
+      
+      <div class="row">
+      <ul>
+      <li><a href="https://www.tatasteel.com/contact-us/" target="_blank">Contact us</a></li>
+      <li><a href="https://www.tatasteel.com/" target="_blank">Our Services</a></li>
+      <li><a href="https://www.tatasteel.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+      <li><a href="https://www.tatasteel.com/corporate/our-organisation/policies/" target="_blank">Terms & Conditions</a></li>
+      <li><a href="https://tslhr.tatasteel.co.in/recruit/" target="_blank">Career</a></li>
+      </ul>
+      </div>
+      
+      <div class="row">
+      Copyright © 2023 - All rights reserved
+      </div>
+      </div>
+      </footer>
+    <script src="managerpage.js"></script>
+</body>
+</html>

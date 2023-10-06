@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleemployeeupdate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <title>Employee Update</title>
+</head>
+<body>
+  <section id="home" class="section">
+    <div class="home-container">
+        <header>
+    <div class="header">
+        <div class="logo">
+        <img src="logo1.png" alt="Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#update-profile">Update Profile</a></li>
+                <li><a href="#update-project"> Update Project </a></li>
+               
+            </ul>
+        </nav>
+        <div class="logout">
+            <button onclick="logout()">Logout</button>
+        </div>
+        <div class="profile_icon">
+            <img src="img1.jpeg" alt="img1" width="50">
+        </div>
+       
+    </div>
+    </header>
+    <section class="banner">
+        <h1>Leading Through Legacy</h1>
+        <h3>Tata Steel is reinventing itself to adapt the challenges of the future.</h3>
+    <a href="https://www.tatasteel.com/" target="_blank">Explore</a>
+    </section>
+    
+    
+    </div>
+  </section>
+
+    <div class="parallax-container">
+      
+        <div class="emp_det">
+        
+        <section id="update-profile" class="section">
+            
+                <h1>Update Profile</h1>
+                <div class="profile-container">
+                <form id="profileForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name"><br>
+              
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number"><br>
+              
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email"><br>
+              
+                    <label for="photo">Photo URL:</label>
+                    <input type="url" id="photo" placeholder="Enter URL for your photo"><br>
+              
+                    <button type="submit">Update</button>
+                  </form>
+                  </div>
+                
+            </section>
+
+            
+        </section>
+        </main>
+    </div>
+   
+    <div class="emp_det2">
+        <section id="update-project" class="section2">
+          
+            <h1>Update Project</h1>
+            <div class="progress-container">
+                <form>
+                    <label for="project-select">Select Project</label>
+                <div class="projectselect">
+                <select id="project-select">
+                    <option value="Employee A">Project X</option>
+                    <option value="Employee B">Project Y</option>
+                    <option value="Employee C">Project Z</option>
+                    <option value="Employee D">Project ABC</option>
+                   
+                </select>
+            </div>
+            <label for="progress-select">Select Progress</label>
+            <div class="progressselect">
+            <select id="progress-select">
+                <option value="Employee A">10</option>
+                <option value="Employee B">20</option>
+                <option value="Employee C">30</option>
+                <option value="Employee D">40</option>
+                <option value="Employee D">50</option>
+                <option value="Employee D">60</option>
+                <option value="Employee D">70</option>
+                <option value="Employee D">80</option>
+                <option value="Employee D">90</option>
+                <option value="Employee D">100</option>
+               
+            </select>
+            <br>
+            <button type="submit">Update</button>
+            </div>
+            </form>
+        </div>
+          
+                  </div>
+              </div>
+        </section>
+  
+
+ 
+       
+</div>
+    <footer>
+      <div class="footer">
+      <div class="row">
+      <a href="https://www.facebook.com/TataSteelLtd/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/tatasteelltd/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCiBXZ5-vg78L_-_mcBhq6tw" target="_blank"><i class="fa fa-youtube"></i></a>
+      <a href="https://twitter.com/TataSteelLtd" target="_blank"><i class="fa fa-twitter"></i></a>
+      </div>
+      
+      <div class="row">
+      <ul>
+      <li><a href="https://www.tatasteel.com/contact-us/" target="_blank">Contact us</a></li>
+      <li><a href="https://www.tatasteel.com/" target="_blank">Our Services</a></li>
+      <li><a href="https://www.tatasteel.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+      <li><a href="https://www.tatasteel.com/corporate/our-organisation/policies/" target="_blank">Terms & Conditions</a></li>
+      <li><a href="https://tslhr.tatasteel.co.in/recruit/" target="_blank">Career</a></li>
+      </ul>
+      </div>
+      
+      <div class="row">
+      Copyright © 2023 - All rights reserved
+      </div>
+      </div>
+     
+      </footer>
+    <script src="employeeupdate.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemanagerlogin.css">
+    <title>Manager Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="logo">
+                <img src="logo1.png" alt="Tata Steel Logo">
+            </div>
+            <div class="welcome-message">
+                <h1>Welcome to TataSteel</h1>
+            </div>
+        </div>
+        <div class="blurry-background"></div>
+        <div class="middle-content">
+            <div class="center-box">
+                <h2>Login as a Manager</h2>
+                <div class="login-container">
+                    <h3>Enter Your Credentials</h3>
+                    <form id="login-form">
+                        <div class="input-group">
+                            <input type="text" id="username" placeholder="Username" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="password" placeholder="Password" required>
+                            <div class="checkbox-label">
+                            <input type="checkbox" id="showPassword" onclick="togglePasswordVisibility()"> Show Password  <!--good to have feature-->
+                        </div>
+                        </div>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="managerlogin.js"></script>
+</body>
+</html>

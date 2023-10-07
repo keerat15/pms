@@ -30,5 +30,5 @@ Employee:
 
 ## How To Start
 
-In order to view the project from the beginning open file "start.html"
+In order to view the project from the beginning, open file "start.html"
 

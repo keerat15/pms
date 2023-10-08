@@ -1,12 +1,12 @@
 
-# TATASTEEL PROJECT MANAGEMENT SYSTEM (FRONTEND) 
+# PROJECT MANAGEMENT SYSTEM (FRONTEND) 
 
 
 
 
 ## Description
 
-This project is a frontend application for managing projects at TATA Steel. The languages used for the same are HTML, CSS and JavaScript. It provides functionality for two types of users: managers and employees.
+This project is a frontend application for managing projects at a particular company. The languages used for the same are HTML, CSS and JavaScript. It provides functionality for two types of users: managers and employees.
 
 
 
